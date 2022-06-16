@@ -1,0 +1,17 @@
+com\student\management\ManagementApplication.class
+com\student\management\controller\TeacherController.class
+com\student\management\entities\TutionFeesEntity.class
+com\student\management\service\StudentService.class
+com\student\management\service\TeacherService.class
+com\student\management\entities\AdminEntity.class
+com\student\management\controller\StudentController.class
+com\student\management\service\AdminService.class
+com\student\management\service\TutionFeesService.class
+com\student\management\repository\TutionFeesRepository.class
+com\student\management\controller\TutionFeesController.class
+com\student\management\entities\TeacherEntity.class
+com\student\management\repository\StudentRepository.class
+com\student\management\entities\StudentEntity.class
+com\student\management\controller\AdminController.class
+com\student\management\repository\TeacherRepository.class
+com\student\management\repository\AdminRepository.class
