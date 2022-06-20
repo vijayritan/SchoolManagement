@@ -18,7 +18,7 @@ public class TeacherService {
 	public void saveTeacher(TeacherEntity teacher) {
 		List<String> subjectNames  = teacher.getSubjectNames();
 		//only if the teacher knows the subject - Maths -only then save the teacher
-		boolean eligible = false;
+		boolean eligible= false;
 		long count = subjectNames.stream().filter(eachSubject -> eachSubject.equals("Maths")).count();
 		if(count>1) {
 			eligible = true;

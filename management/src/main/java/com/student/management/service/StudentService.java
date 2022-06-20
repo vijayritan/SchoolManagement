@@ -77,10 +77,14 @@ public class StudentService {
 		studentRepo.save(std);
 	}
 
-	public void deleteStudent(StudentEntity student) {
-		studentRepo.delete(student);
-		
-	}
+	
+	
+	  public void deleteStudent(StudentEntity student) {
+	  studentRepo.delete(student);
+	  
+	  }
+	 
+	 
 	
     
 	
